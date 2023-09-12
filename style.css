@@ -1,0 +1,209 @@
+body{
+    background-image: linear-gradient(to bottom right, rgba(0, 17, 255, 0.973), rgba(0, 183, 255, 0.753) );
+    margin: 0;
+}
+
+header{
+    margin: 0;
+    margin-bottom: 10px;
+    background-image: url(personal\ site\ bg.png);
+    width: 100%;
+    height: 400px;
+}
+
+.nav ul{
+    border: 1px solid transparent;
+    background-color: rgba(56, 51, 51, 0.445);
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin-top: 0;
+    padding: .5rem;
+}
+
+.nav ul a{
+    background-color: rgba(56, 51, 51, 0.651);
+    color: #fff;
+    padding: .5rem;
+    margin-left: 1rem ;
+    text-decoration: none;
+}
+
+.nav ul a:hover{
+    background-color: rgb(116, 90, 90);
+}
+
+.name h1{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.name{
+    color: #fff;
+    padding: 50px 150px;
+    position: absolute;
+}
+
+span{
+    color: rgb(205, 223, 217);
+    font-family: 'Pacifico', cursive;
+    font-size: 1.6rem;
+    font-weight: lighter;
+}
+
+.name p{
+    color: rgb(158, 239, 250);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5rem;
+    width: 70%;
+}
+
+h2{
+    color: rgb(255, 255, 255);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2rem;
+    margin: .5rem 0;
+}
+
+main p{
+    border-radius: .2rem;
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: .5rem;
+}
+
+
+
+.introduction{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 9rem 2rem 9rem;
+}
+
+.introduction img{
+    border: 1px solid transparent;
+    border-radius: 100%;
+}
+
+.intro p{
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.intro{
+    margin-left: 2.5rem;
+    text-align: left;
+}
+
+.work{
+    justify-content: center;
+    align-items: center;
+    padding: .5rem 5rem;
+    margin: .5rem 8rem;
+}
+
+.expertise{
+    justify-content: center;
+    align-items: center;
+    padding: .5rem 5rem;
+    margin: .5rem 8rem;
+}
+
+.skills {
+    display: flex;
+    justify-content: flex-start;
+  
+}
+
+.skills .frwd{
+    padding: 1rem ;
+    margin: 0 7rem 0 5rem;
+}
+
+.skills .bcwd{
+    padding: 1rem;
+    margin: 0 5rem 0 13rem;
+    justify-content: left;
+}
+
+
+.projects{
+    justify-content: center;
+    align-items: center;
+    padding: .5rem 5rem;
+    margin: .5rem 8rem;
+}
+
+.contact{
+    justify-content: center;
+    align-items: center;
+    padding: .5rem 5rem;
+    margin: .5rem 8rem;
+}
+
+form{
+    margin-left: 13rem;
+    background-image: linear-gradient(to bottom right, rgba(140, 0, 255, 0.637), rgba(0, 204, 255, 0.507));
+    text-align: center;
+    width: 60%;
+    border: 1px solid rgb(177, 174, 174);
+    border-radius: 1rem;
+}
+
+ form input{
+    
+    border: 1px solid rgba(116, 115, 113, 0.863);
+    border-radius: 1rem;
+    background-color: rgba(232, 255, 127, 0.548);
+    margin: .5rem 0;
+    padding: .5rem;
+    width: 80%;
+}
+form textarea{
+    border: 1px solid rgba(116, 115, 113, 0.863);
+    border-radius: 1rem;
+    background-color: rgba(232, 255, 127, 0.548);
+    margin: .5rem 0;
+    padding: .5rem;
+    width: 80%;
+}
+
+
+footer{
+    background-image: radial-gradient(circle,  rgb(255, 0, 200), rgb(111, 0, 255));
+    margin: 0;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 0;
+    
+    padding: .5rem;
+}
+
+footer ul a{
+    color:  rgb(158, 239, 250);
+    padding: .5rem;
+    margin-left: 1rem;
+    text-decoration: none;
+}
+
+footer ul a:hover{
+    text-decoration: underline ;
+}
+
+footer p{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
+    font-size: 1rem;
+    color: #fff;
+    padding: 1rem;
+    margin-bottom: 0;
+}
